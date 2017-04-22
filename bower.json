@@ -1,0 +1,17 @@
+{
+  "name": "capm-landing-page-dev",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Soltan Viorel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

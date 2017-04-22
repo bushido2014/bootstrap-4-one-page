@@ -1,0 +1,68 @@
+section {
+	padding: 40px 0;
+	 .section_title {
+    	text-align: center;
+    	width: 100%;
+    	margin-bottom: 35px;
+    }
+}
+.partnership {
+	text-align: center;
+	p {
+		text-align: justify;
+
+	}
+	img {
+		margin: 25px 0;
+	}
+
+}
+.promo-tools {
+	background: url(../img/bg-promo.png);
+	background-attachment: fixed;
+    background-size: cover;
+	width: 100%;
+    min-height: 580px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #d8b16b;
+    h2 {
+    		
+    		color: #fff;
+    	}
+    	img {
+    		margin: 20px 0;
+    	}
+
+}
+.pay_method {
+	text-align: center;
+
+}
+.contact {
+	background-color: #333;
+	color: #fff;
+	form {
+        width: 100%;
+	
+	 .form-group {
+        margin-bottom: 25px;
+        input,
+        textarea {
+            padding: 12px;
+        }
+        input.form-control {
+            height: auto;
+        }
+        textarea.form-control {
+            height: 151px;
+        }
+    }
+    .form-control:focus {
+        border-color: $theme-primary;
+        box-shadow: none;
+    }
+
+    }
+}

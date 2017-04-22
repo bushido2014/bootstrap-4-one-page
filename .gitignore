@@ -1,0 +1,5 @@
+.DS_Store
+descop.ini/
+node_modules/
+npm-debug.log/
+

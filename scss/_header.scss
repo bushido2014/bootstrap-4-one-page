@@ -1,0 +1,57 @@
+$theme-primary: #d8b169;
+
+
+body {
+	font-family: 'OpenSansRegular', sans-serif;
+}
+a {
+	outline: 0;
+	&:focus {
+		outline: 0;
+	}
+}
+header {
+	
+	.navbar {
+		background-color: #bf9e60;
+		.navbar-nav {
+			a {
+				color: #fff!important;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.aff_programm {
+	  background: url(../img/bg-image.png);
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  min-height: 410px;
+	  background-size: cover;
+	  text-align: center;
+	  h1 {
+	  	color: $theme-primary;
+	  	margin-top: 160px;
+	  	font-family: 'OpenSansBold', sans-serif;
+	  	line-height: 1.3;
+	  }
+	  h3 {
+	  	color: #fff;
+	  	line-height: 1.3;
+	  	margin-bottom: 35px;
+	  }
+	 
+	}
+}
+ .btn-lg {
+	  	background-color: $theme-primary;
+	  	border-color: none;
+	  	cursor: pointer;
+	  	outline: 0;
+	  	color: #fff;
+	  	transition: all .25s;
+	  	&:hover,&:focus,&:active {
+	  		border-color: none;
+	  		background-color: #bf9b53;
+	  	}
+	  	
+	  }
